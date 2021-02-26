@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "compilerOptions": {
       "baseUrl": ".",
@@ -15,3 +16,22 @@
       "dist"
     ]
   }
+=======
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "~/*": [
+          "./*"
+        ],
+        "@/*": [
+          "./src/*"
+        ],
+      }
+    },
+    "exclude": [
+      "node_modules",
+      "dist"
+    ]
+  }
+>>>>>>> b2bb8d7559a09d693c9b20c96c5dc23cafe56687
